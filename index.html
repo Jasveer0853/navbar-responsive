@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<link href="https://unpkg.com/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+<style>
+    body{margin: 0;
+        padding: 0;
+        background-image:url("pexels-stywo-1054218.jpg");
+        background-position:center;
+        background-size:cover;
+        background-repeat:no-repeat;
+        height:100vh;
+
+
+    }
+</style>
+
+<body>
+    <!---main-->
+    
+       <div class="w-100vw h-20 flex lg:bg-[#78a5ab]">
+            <h1 class="text-2xl font-[600] font-sans my-auto pl-4 text-white lg:pl-10">Web Dev Creative</h1>
+        <div class="flex justify-center items-center lg:hidden"><!--icon-div-->
+            <i class="ri-close-line text-4xl pl-[95px] text-white"></i>
+        </div>
+        <!--link-in-lg-->
+        <div class="hidden lg:flex justify-around items-center lg:w-[400px] lg:ml-[450px]">
+            <a class="lg:font-[arial] text-white text-[18px] hover:text-yellow-400" href="#">Home</a>
+            <a class="lg:font-[arial] text-white text-[18px] hover:text-yellow-400" href="#">About</a>
+            <a class="lg:font-[arial] text-[18px] text-white hover:text-yellow-400" href="#">Services</a>
+            <a class="lg:font-[arial] text-[18px] text-white hover:text-yellow-400" href="#">Contact</a>
+
+        </div>
+        <div class="hidden lg:block lg:my-auto lg:ml-[500px]"><!--button-->
+        <button class=" w-[130px] h-8 text-[15px] text-white font-[500] bg-[#f6ab00] text-center rounded-[15px]">Get Started</button> <!--link-in-lg-closed-->
+    </div><!--button-closed-->
+    
+</div> <!---main-closed-->
+<div class="w-[300px] h-[300px] flex ml-[35px] mt-3 rounded-[5px] lg:hidden flex-col items-center gap-5">
+    <a class="text-white text-2xl font-[arial] font-[300] hover:text-yellow-400 pt-4" href="#">Home</a>
+    <a class="text-white text-2xl font-[arial] font-[300] hover:text-yellow-400" href="#">About</a>
+    <a class="text-white text-2xl font-[arial] font-[300] hover:text-yellow-400" href="#">Services</a>
+    <a class="text-white text-2xl font-[arial] font-[300] hover:text-yellow-400" href="#">Contact</a>
+    <button class="w-[250px] h-[35px] bg-[#f6ab00] hover:text-blue-900 rounded-[10px] text-white text-[17px] mx-auto font-[500] border-[1px solid black]">Get Started</button>
+    <div class="absolute opacity-25 pointer-events-none w-[300px] bg-orange-200 h-[300px] rounded-[8px]"></div>
+</div>
+<div class="">
+    <h1 class=" text-center text-white font-bold font-[arial] mt-[70px] text-3xl lg:mt-[350px] lg:text-4xl lg:font-[700]">RESPONSIVE NAVBAR</h1>
+    <h1 class="text-center text-white font-[arial] text-[18px] lg:leading-9">HTML & CSS</h1>
+
+</div>    
+
+
+
+
+   
+</body>
+</html>
